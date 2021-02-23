@@ -1,7 +1,10 @@
+import { useState } from 'react';
+//import Modal from './Modal';
 
 
 
 function App() {
+  //const [ModalVisible, setModalVisible] = useState(false);
   return (
     <div className="App">
       <header>
@@ -15,7 +18,9 @@ function App() {
                 <p>La Maison Salvi vous offre chaque jour le choix entre un menu carné ou végé: 10€ livraison incluse (sur Rennes uniquement).</p>
                 <p>Des produits sains et simples, de saison, mis en musique et en couleur par le chef Pablo. Qui d'autre aurait pu réconcilier la famille autour d'une idée aussi simple et chaleureuse?</p>
                 <p>Il est temps de passer commande</p>
-                <button className='btn-menu'>MENU DU JOUR</button>
+                <button className='btn-menu' >MENU DU JOUR</button>
+                {/* mit dans la balise button en haut avt className : onClick={ () => setModalVisible(true)*/} 
+                {/*<Modal title='main'visible={ModalVisible}></Modal>*/}
               </div>
               <div className='photo'>
                 <img src={`images/cuistot1.jpg`} alt={`cuistot Pablo`} className='img-cuistot'/>
