@@ -24,9 +24,19 @@ function App() {
             <h1 className='gustatives'> Gustatives</h1>
             <p>Un menu de la Maison Salvi vous a séduit? Vous refusez de croire qu'il ne reviendra pas à la carte?</p>
             <p>Je vous propose de passer en revue les recttes, et donner votre avis. Choisissez votre favori !</p>
-            <button className='btn-voter'>voter</button>
+            <button className='btn-voter'>VOTER</button>
           </div>
-          <div className='contenu-logo'></div>
+          <div className='contenu-logo'>
+            <div className='conteneur-tache'>
+              <img src={`images/splash.svg`} alt={`tache orange`} className='tache-orange'/>
+              <img src={`images/suri02.jpg`} alt={`sourit cuisto2`} className='img-suri2'/>
+            </div>
+          </div>
+        </section>
+        <section className='contenu-img'>
+        <img src={`images/1.jpg`} alt={`entrée`} className='img1'/>
+        <img src={`images/2.jpg`} alt={`plat`} className='img2'/>
+        <img src={`images/3.jpg`} alt={`dessert`} className='img3'/>
         </section>
       </main>
       <footer>
