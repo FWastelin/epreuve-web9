@@ -10,13 +10,19 @@ function App() {
       <main>
         <section className='menu'>
             <div className='contenu-menu'>
-              <article className='texte-menu'>
-                <div className='conteneur-Img-cury'><img src={`images/cury_de_legume.jpg`} alt={`cury de legumes`} className='img-cury'/></div>
-              </article>
-              <article className='img-cuisto'>
-                <div className='conteneur-Img-cuisto'><img src={`images/cuistot1.jpg`} alt={`cuisto`} className='img-cuisto'/></div>
-               </article>
+              <div className='texte'>
+                <img src={`images/2.jpg`} alt={`curry de legumes`} className='img-curry'/>
+                <p>La Maison Salvi vous offre chaque jour le choix entre un menu carné ou végé: 10€ livraison incluse (sur Rennes uniquement).</p>
+                <p>Des produits sains et simples, de saison, mis en musique et en couleur par le chef Pablo. Qui d'autre aurait pu réconcilier la famille autour d'une idée aussi simple et chaleureuse?</p>
+                <p>Il est temps de passer commande</p>
+                <button className='btn-menu'>MENU DU JOUR</button>
+              </div>
+              <div className='photo'>
+                <img src={`images/cuistot1.jpg`} alt={`cuistot Pablo`} className='img-cuistot'/>
+              </div>
             </div>
+            <div className='rond-orange'></div>
+            <div className='rond-hachure'></div>
         </section>
         <section className='archive'>
           <div className='contenu-archive'>
